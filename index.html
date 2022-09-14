@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Sign-Up Form</title>
+</head>
+<body>
+  <div class="left">
+    <div class="logo">
+      <div class="logo-img"><img src="./images/odin-lined.png" id="bg" alt="image of the odin project logo">
+      </div>
+      <h1 class="logo-text">ODIN</h1>
+    </div>
+    <div class="photo-credit">
+      <p>Photo by <a href="https://unsplash.com/@chuttersnap?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">CHUTTERSNAP</a> on <a href="https://unsplash.com/backgrounds?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    </div>
+  </div>
+
+  <div class="right">
+    <div class="sign-in-text">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga sit distinctio nihil? Odit, soluta tempore sapiente non consequuntur asperiores libero?  Sign up <em>now</em>!</p>
+      <br>
+      <p>It's a <em>good</em> idea.</p>
+    </div>
+    <div class="form">
+      <form id="form" action="post">
+        
+        <div class="top-text"><p class="p">Let's do this!</p></div>
+
+        <div class="columns">
+          <div class="left-col">
+            <label for="fName" class="col1">FIRST NAME *</label>
+            <input type="text" name="fName" id="fName" class="col1" required>  
+            <label for="lName" class="col2">LAST NAME *</label>
+            <input type="text" name="lName" id="lName" class="col2" required>
+            <label for="email" class="col1">EMAIL *</label>
+            <input type="email" name="email" id="email" class="col1" required>
+          </div>
+
+          <div class="right-col">
+            <label for="phone-number"class="col2" >PHONE NUMBER *</label>
+            <input type="number" name="phone-number" id="phone-number" class="col2" required>
+            <label for="pwd" class="col1">PASSWORD *</label>
+            <input type="password" name="pwd" id="pwd" class="col1" required>    
+            <label for="pwd" class="col2" >CONFIRM PASSWORD *</label>
+            <input type="password" name="pwd" id="pwd" class="col2" required>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="submit">
+      <button type="submit" class="submitBtn">Create Account</button>
+      <!-- <input type="submit" value="Create Account" class="submitBtn"> -->
+      <p>Already have an accoutn? <a href="#">Log in</a></p>
+    </div>
+  </div>
+
+  </p>
+</body>
+</html>
